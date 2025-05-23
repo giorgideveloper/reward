@@ -46,7 +46,7 @@
     max-width: 1400px;
     font-family: 'Myriad Pro';
     font-weight: normal; /* or bold, 600, 300 */
-font-style: normal;
+    font-style: normal;
     /* You can adjust this value to your desired width */
 }
 
@@ -60,6 +60,105 @@ font-style: normal;
     max-width: 1140px;
 }
 
+
+@media (max-width: 768px) {
+    .box-content{
+        text-align: center;
+        max-width: 100% !important;
+        margin-left: 0px !important;
+    }
+    .box-image{
+       margin-left: 0px !important;
+       margin-bottom: 30px;
+    }
+    .box-widget-title{
+        margin-top: 0 !important;
+        margin-left: 0px !important;
+    }
+    .box-content-tow{
+        margin-left: 0px !important;
+    }
+    .box-tow {
+        margin-bottom: 0px !important;
+    }
+    .box-border{
+        display: none;
+    }
+    .box-content-tow{
+        margin-top: -50px !important;
+    }
+    .box-content-tow p{
+        font-size: 60px !important;
+    }
+    .accordion-button::after{
+    display: none !important;   
+    }
+    .accordion-button::before{
+        flex-shrink: 0;
+        width: var(--bs-accordion-btn-icon-width);
+        height: var(--bs-accordion-btn-icon-width);
+        content: "";
+        background-image: var(--bs-accordion-btn-icon);
+        background-repeat: no-repeat;
+        background-size: var(--bs-accordion-btn-icon-width);
+        transition: var(--bs-accordion-btn-icon-transition);
+        color: #fff !important;
+        margin-right: 5px;
+    }
+    .disp{
+        display: none !important;
+    }
+    .my-accordion{
+        display: block !important;   
+    }
+    .accordion-header{
+
+    }
+}
+@media (max-width: 425px) {
+    .box-content {
+        padding: 40px 0px 55px 6px !important;
+    }
+    .box-content-tow{
+        margin-left: 0px !important;
+        padding: 40px 45px !important;
+    }
+    .box-content-tow p{
+        font-size: 30px !important;
+    }
+    .box-content-tow{
+        margin-bottom: 25px !important;
+    }
+    .box-image{
+        margin-top: 40px !important;
+        
+    }
+    .box-image img{
+        width: 100% !important;
+    }
+    /* .box-content-image{
+        margin-bottom: 100px !important;
+    } */
+    
+  
+    
+}
+.my-accordion{
+    display: none;
+    margin-bottom: 20px;
+    font-weight: 600 !important;
+    
+}
+.accordion-item{
+    border: none !important;
+}
+.accordion-item button {
+    background-color: #253b7e !important;
+    color: #fff;
+    font-weight: 600 !important;
+   
+
+}
 /* For different breakpoints */
 @media (min-width: 576px) {
     .container {
@@ -71,6 +170,17 @@ font-style: normal;
     .container {
         max-width: 720px;
     }
+    /* .box-content{
+        text-align: center;
+    }
+    .box-image{
+       margin-left: 0px !important;
+       margin-bottom: 30px;
+    }
+    .box-widget-title{
+        margin-top: 0 !important;
+        margin-bottom: 0px;
+    } */
 }
 
 @media (min-width: 992px) {
@@ -173,11 +283,13 @@ body {
     text-transform: uppercase;
     color: black;
 }
-
-.box-border {
+.border-h{
+    margin-bottom: 100px !important;
+}
+/* .box-border {
     margin-top: 141px;
     margin-bottom: 25px;
-}
+} */
 
 .box-border svg {
     width: calc(100% + 1.3px);
@@ -212,7 +324,7 @@ body {
     background-color: #00C3DF;
     max-width: 100%;
     height: 400px;
-    margin-bottom: 100px;
+   
 }
 
 .box-content-section {
