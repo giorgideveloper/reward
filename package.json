@@ -1,0 +1,17 @@
+{
+  "name": "reward-website",
+  "version": "1.0.0",
+  "description": "Reward website with live server for mobile testing",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "live-server --port=3000 --host=0.0.0.0 --no-browser",
+    "dev:local": "live-server --port=3000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}

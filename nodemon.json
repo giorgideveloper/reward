@@ -1,0 +1,12 @@
+{
+  "verbose": true,
+  "ignore": ["node_modules/*", ".git/*"],
+  "watch": [
+    "*.html",
+    "src/**/*.css",
+    "src/**/*.js",
+    "server.js"
+  ],
+  "ext": "html,css,js,json",
+  "delay": "1000"
+} 
