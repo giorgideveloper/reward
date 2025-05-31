@@ -192,7 +192,8 @@
         display: none !important;
     } 
     .bg-skyblue-nine{
-        background-color: #fff !important;
+        background-color: #ffffff00 !important;
+        color: #253b7e !important;
     }   
     .custom-mobile{
         margin-bottom: 140px !important;
@@ -232,7 +233,10 @@
     position: absolute;
     
 }
-    
+.box-content-tow{
+    padding: 20px !important;
+}
+   
 }
 .widget-mobile{
     display: none;
@@ -830,4 +834,5 @@ left: -100px;
     background-color: #00C3DF;
     max-width: 100%;
     height: 400px;
+    color: #fff;
 }
