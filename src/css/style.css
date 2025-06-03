@@ -231,12 +231,38 @@
     left: 100%;
     transform: translate(-64%, 5%) !important;
     position: absolute;
-    
-}
+    }
+    .section-seven-box {
+        display: none !important;
+    }
 .box-content-tow{
     padding: 20px !important;
 }
    
+.section-eight-image-content{
+    transform: translate(0%, -170%) !important;
+    width: 100% !important;
+    height: 250px !important;
+    padding-left: 40px !important;
+    padding-top: 20px !important;
+    text-align: center !important;
+    justify-content: center !important;
+}
+
+
+.section-eight-image{
+    margin-top: 350px !important;
+}
+.section-eight-image{
+    width: 100% !important;
+    height: 350px !important;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
 }
 .widget-mobile{
     display: none;
@@ -762,6 +788,26 @@ left: -100px;
     text-transform: uppercase;
     padding-left: 20px;
 }
+    .section-nine-box-image-content{
+    width: 600px;
+    height: 250px;
+    background-color: rgba(38, 51, 107, 0.904);
+    color: #fff;
+    text-align: left;
+    padding: 20px;
+        transform: translate(71%, 5%) !important;
+
+    position: absolute;
+    
+}
+.section-nine-box-image-content p{
+    font-size: 44px;
+    font-weight: 300;
+    line-height: 64px;
+    letter-spacing: normal;
+    text-transform: uppercase;
+    padding-left: 20px;
+}
 .section-seven-box-title{
     overflow: hidden;
     height: 149px;
@@ -835,4 +881,40 @@ left: -100px;
     max-width: 100%;
     height: 400px;
     color: #fff;
+}
+
+.section-eight-image{
+    width: 902px;
+    height: 350px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.section-eight-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section-eight-image-content{
+    top: 50%;
+    transform: translate(-10%, -60%);
+    background-color: rgba(38, 51, 107, 0.938);
+    width: 500px;
+    height: 250px;
+    color: #fff;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.section-eight-image-content p{
+  
+    font-size: 42px;
+    font-weight: 300;
+    line-height: 64px;
+    letter-spacing: normal;
+    text-transform: uppercase;
+ 
 }
