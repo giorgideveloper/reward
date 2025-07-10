@@ -499,6 +499,7 @@ body {
     margin-top: 120px;
 }
 
+
 .box-content-tow p {
     font-size: 42px;
     font-weight: 400;
@@ -917,4 +918,35 @@ left: -100px;
     letter-spacing: normal;
     text-transform: uppercase;
  
+}
+
+.section-eleven-title{
+      background-color: rgba(6, 21, 85, 0.87);
+      width: 100%;
+      padding: 60px 20px 60px 40px;
+}
+@media (min-width: 1200px ){
+    .section-eleven-title {
+      background-color: rgba(6, 21, 85, 0.87);
+      width: 85%;
+      padding: 60px 20px 60px 40px;
+    }
+    
+}
+.section-eleven-title p{
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: normal;
+    text-transform: uppercase;
+    line-height: 50px;
+    color: #fff;
+}
+.section-eleven-title p:nth-child(1){
+    font-size: 42px;
+    font-weight: 300;
+    line-height: 41px;
+    letter-spacing: normal;
+    text-transform: uppercase;
+    color: #fff;
 }
