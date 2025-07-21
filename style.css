@@ -267,9 +267,6 @@
 .widget-mobile{
     display: none;
 }
-.icon-mobile{
-    display: none;
-}
 
 /* 426px  mobile*/
 @media (max-width: 426px) {
@@ -327,39 +324,6 @@
         font-size: 24px !important;
         padding: 15px !important;
     }
-    .section-four{
-        margin-top: 100px !important;
-    }
-    .icon-mobile {
-        display: block;
-    }
-    .section-four-left{
-        height: 150px !important;
-        margin-top: -50px;
-    }
-    .section-four-left p{
-        text-align: right !important;
-        font-size:38px !important;
-        line-height: 40px !important;
-    }
-    .section-six-box{
-         margin-top: -60px;
-         position: relative;
-         height: 172px;   
-    }
-     .rounded-circle{
-        margin-bottom: 100px !important;
-    }
-    .section-seven-box-image-content {
-    width: 100%;
-    height: 133px;
-    background-color: rgba(7, 23, 93, 0.904);
-    color: #fff;
-    text-align: left;
-    top: 50%;
-    left: 100%;
-    transform: translate(0%, -100%) !important;
-    position: absolute;
 }
 .my-accordion{
     display: none;
@@ -376,7 +340,6 @@
     font-weight: 600 !important;
    
 
-}
 }
 /* For different breakpoints */
 @media (min-width: 576px) {
@@ -578,7 +541,6 @@ body {
 }
 .box-content-image{
     margin-bottom: 27px;
-    margin-top: -10px;
 }
 /* .box-content-title{
     font-size: 23px;
@@ -791,31 +753,41 @@ left: -100px;
     font-size: 18px;
 }
 .section-six-and{
-    background-color: #030d6bd2;
+    background-color: #030d6b;
     color: #fff;
-    width: 70px;
-    height: 70px;
+    width: 90px;
+    height: 90px;
     text-align: center;
 
 }
 .section-six-and p{
-    font-size: 20px;
-}
-
-.section-seven{
-    margin-top: 100px !important;
+    font-size: 27px;
 }
 .section-seven-box-image img{
     width: 100%;
-    height: 250px;
+    height: 420px;
     object-fit: cover;
 }
-    .section-seven-box-image-content p {
-        font-size: 24px;
-        font-weight: 300;
-        line-height: 35px;
-        letter-spacing: normal;
-        text-transform: uppercase;
+.section-seven-box-image-content{
+    width: 600px;
+    height: 250px;
+    background-color: rgba(38, 51, 107, 0.904);
+    color: #fff;
+    text-align: left;
+    padding: 20px;
+    top: 50%;
+    left: 100%;
+    transform: translate(-64%, 5%) !important;
+    position: absolute;
+    
+}
+.section-seven-box-image-content p{
+    font-size: 44px;
+    font-weight: 300;
+    line-height: 64px;
+    letter-spacing: normal;
+    text-transform: uppercase;
+    padding-left: 20px;
 }
     .section-nine-box-image-content{
     width: 600px;
@@ -947,7 +919,6 @@ left: -100px;
     text-transform: uppercase;
  
 }
-
 
 .section-eleven-title{
       background-color: rgba(6, 21, 85, 0.87);
