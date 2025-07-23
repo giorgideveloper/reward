@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 /* Font imports */
 @font-face {
     font-family: 'Myriad Pro';
@@ -73,6 +77,7 @@
 
 body {
     background-color: #F4F4F4 !important;
+    font-family: 'Myriad Pro', Arial, sans-serif;
 }
 
 /* NAVBAR */
@@ -1169,27 +1174,33 @@ body {
         left: calc(100% - 100px);
     }
 
-    .md-lg-6{
+    .md-lg-6 {
         margin-bottom: 4rem !important;
     }
-    .md-lg-7{
+
+    .md-lg-7 {
         margin-bottom: 5rem !important;
     }
-     .md-lg-8{
+
+    .md-lg-8 {
         margin-bottom: 6rem !important;
     }
-      .md-lg-9{
+
+    .md-lg-9 {
         margin-bottom: 7rem !important;
     }
-      .md-lg-10{
+
+    .md-lg-10 {
         margin-bottom: 8rem !important;
     }
 
 
 }
-.fs-6{
+
+.fs-6 {
     font-size: 1.5rem !important;
 }
+
 @media (min-width: 1200px) {
     .container {
         max-width: 1140px;
@@ -1199,6 +1210,7 @@ body {
 @media (min-width: 1400px) {
     .container {
         max-width: 1150px;
+        margin-left: 405px;
     }
 
     .box-container {
