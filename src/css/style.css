@@ -1259,6 +1259,10 @@ body {
     .section-seven-box-title {
         margin-top: 22em;
     }
+    .custom-modal {
+  max-width: 600px;      /* your custom width */
+  margin: 1.75rem auto;  /* vertical spacing + center */
+}
 }
 
 .fs-6 {
