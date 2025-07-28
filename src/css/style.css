@@ -1413,7 +1413,12 @@ body {
     .bg-skyblue-footer {
         align-items: center !important;
     }
+    .section-8{
+        margin-top: 15em;
+    }
+    
 }
+
 
 /* For different breakpoints */
 @media (min-width: 576px) {
@@ -1426,6 +1431,7 @@ body {
     .container {
         max-width: 820px;
     }
+  
 
     /* .box-content{
         text-align: center;
