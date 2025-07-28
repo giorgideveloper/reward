@@ -1132,15 +1132,29 @@ body {
     .mobile-box {
         display: block !important;
     }
+    .section-six-and{
+        margin: 20px 0px;
+    }
 
     .section-eleven-title {
-        display: none !important;
+        margin-top: 5em;
+     display: flex;
+    align-items: center;   
+    justify-content: flex-start; 
+    height: 100px;
+    padding: 0 10px !important;
+    flex-wrap: wrap;
     }
 
     .section-eleven-title p {
-        font-size: 32px !important;
+    margin: 0;
+    text-align: left;     
+    line-height: normal;
+    font-size: 22px !important;
     }
-
+    .section-eleven h2{
+        margin: 20px 0px;
+    }
     .section-eight-image {
         height: 150px !important;
     }
@@ -1318,11 +1332,64 @@ body {
         font-size: 24px;
         line-height: normal;
     }
+    .section-seven .row{
+        flex-direction: column !important;
+    }
+    .section-seven-box-title{
+        background-color: #00a3b900;
+    }
 
     .section-six-box-mobile {
         margin-top: -60px;
     }
+    .box-widget-title p:nth-child(2){
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: bold;
+        letter-spacing: normal;
+        color: #29366c;
+        font-family: 'din-pro', sans-serif;
+    }
+    .section-eight-image img {
+        margin-top: 2.5em;
+        height: 190px;
+    }
+    .section-10 .box-content{
+        display: none;
+    }
+    .section-10 .row{
+        flex-direction: column-reverse;
+    }
+    .bg-skyblue-footer img{
+        display: none;
+    }
+    .bg-skyblue-footer {
+        
+    }
+    .bg-skyblue-footer .ul-content{
+        margin: 0px 10px;
+    }
+    .bg-skyblue-footer ul li {
+        text-align: left;
+        line-height: normal;
+    }
+  .container-fluid {
+    max-width:93%; 
+    margin: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .copy{
+    max-width:100% ;
+    margin: 0;
+    font-size: 8px;
+  }
 }
+ .copy{
+    background-color: #253b7e;
+    color: #f4f4f4ce;
+    font-size: 12px;
+  }
 
 @media (max-width:376px) {
     .section-right-md p {
